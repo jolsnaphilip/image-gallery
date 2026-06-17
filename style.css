@@ -1,0 +1,54 @@
+body {
+  background: #1f2937;
+  color: white;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.full-img {
+  width: 500px;
+  margin: 20px auto;
+  position: relative;
+}
+
+.displayed-img {
+  width: 100%;
+  border-radius: 12px;
+}
+
+.overlay {
+  position: absolute;
+  inset: 0;
+  border-radius: 12px;
+  transition: 0.3s;
+}
+
+button {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  padding: 8px 14px;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.thumb-bar {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.thumbnail {
+  width: 90px;
+  height: 70px;
+  object-fit: cover;
+  border-radius: 10px;
+  transition: transform 0.2s;
+  cursor: pointer;
+}
+
+.thumbnail:hover {
+  transform: scale(1.08);
+}
