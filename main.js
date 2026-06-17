@@ -4,7 +4,7 @@ const toggleBtn = document.querySelector(".dark");
 const shade = document.querySelector(".overlay");
 
 const photos = [
-  "https://upload.wikimedia.org/wikipedia/commons/0/0f/Munnar_hill_station.jpg",
+  "Natucate Blog – India: Kerala ⋅ Natucate https://share.google/4A51DhIfnNm9HbNFp",
   "https://upload.wikimedia.org/wikipedia/commons/4/4d/Alappuzha_Backwaters.jpg",
   "https://upload.wikimedia.org/wikipedia/commons/8/83/Thekkady_Kerala.jpg",
   "https://upload.wikimedia.org/wikipedia/commons/5/57/Vagamon_Meadows.jpg",
