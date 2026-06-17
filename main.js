@@ -4,11 +4,12 @@ const toggleBtn = document.querySelector(".dark");
 const shade = document.querySelector(".overlay");
 
 const photos = [
-  "Natucate Blog – India: Kerala ⋅ Natucate https://share.google/4A51DhIfnNm9HbNFp",
-  "https://upload.wikimedia.org/wikipedia/commons/4/4d/Alappuzha_Backwaters.jpg",
-  "https://upload.wikimedia.org/wikipedia/commons/8/83/Thekkady_Kerala.jpg",
-  "https://upload.wikimedia.org/wikipedia/commons/5/57/Vagamon_Meadows.jpg",
-  "https://upload.wikimedia.org/wikipedia/commons/2/2d/Athirappilly_Falls.jpg"
+  "images/munnar.jpg",
+  "images/allepey.jpg",
+  "images/athirapally.jpg",
+  "images/vagamon.jpg",
+  "images/silent-valley.jpg",
+  "images/wayanad.jpg"
 ];
 
 photos.forEach((photo) => {
