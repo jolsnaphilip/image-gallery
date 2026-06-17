@@ -4,11 +4,11 @@ const toggleBtn = document.querySelector(".dark");
 const shade = document.querySelector(".overlay");
 
 const photos = [
-  "https://images.unsplash.com/photo-1514565131-fce0801e5785?w=500&auto=format&fit=crop", // city skyline
-  "https://images.unsplash.com/photo-1519501025264-65ba15a82390?w=500&auto=format&fit=crop", // night city
-  "https://images.unsplash.com/photo-1477959858617-67f85cf4f1df?w=500&auto=format&fit=crop", // downtown
-  "https://images.unsplash.com/photo-1449824913935-59a10b8d2000?w=500&auto=format&fit=crop", // street
-  "https://images.unsplash.com/photo-1446776811953-b23d57bd21aa?w=500&auto=format&fit=crop"  // aerial city
+  "https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?w=500&auto=format&fit=crop",
+  "https://images.unsplash.com/photo-1503376780353-7e6692767b70?w=500&auto=format&fit=crop",
+  "https://images.unsplash.com/photo-1489824904134-891ab64532f1?w=500&auto=format&fit=crop",
+  "https://images.unsplash.com/photo-1544636331-e26879cd4d9b?w=500&auto=format&fit=crop",
+  "https://images.unsplash.com/photo-1553440569-bcc63803a83d?w=500&auto=format&fit=crop"
 ];
 
 photos.forEach((photo) => {
