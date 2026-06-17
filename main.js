@@ -4,12 +4,12 @@ const toggleBtn = document.querySelector(".dark");
 const shade = document.querySelector(".overlay");
 
 const photos = [
-  "images/munnar.jpg",
-  "images/allepey.jpg",
-  "images/athirapally.jpg",
-  "images/vagamon.jpg",
-  "images/silent-valley.jpg",
-  "images/wayanad.jpg"
+  "https://picsum.photos/id/10/800/500",
+  "https://picsum.photos/id/28/800/500",
+  "https://picsum.photos/id/29/800/500",
+  "https://picsum.photos/id/42/800/500",
+  "https://picsum.photos/id/58/800/500",
+  "https://picsum.photos/id/1043/800/500"
 ];
 
 photos.forEach((photo) => {
