@@ -4,12 +4,11 @@ const toggleBtn = document.querySelector(".dark");
 const shade = document.querySelector(".overlay");
 
 const photos = [
-  "https://picsum.photos/id/10/800/500",
-  "https://picsum.photos/id/28/800/500",
-  "https://picsum.photos/id/29/800/500",
-  "https://picsum.photos/id/42/800/500",
-  "https://picsum.photos/id/58/800/500",
-  "https://picsum.photos/id/1043/800/500"
+  "https://images.unsplash.com/photo-1509316975850-ff9c5deb0cd9?auto=format&fit=crop&w=800&q=80",
+  "https://images.unsplash.com/photo-1508739773434-c26b3d09e071?auto=format&fit=crop&w=800&q=80",
+  "https://images.unsplash.com/photo-1508672019048-805c876b67e2?auto=format&fit=crop&w=800&q=80",
+  "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=800&q=80",
+  "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=800&q=80"
 ];
 
 photos.forEach((photo) => {
