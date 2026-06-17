@@ -4,11 +4,11 @@ const toggleBtn = document.querySelector(".dark");
 const shade = document.querySelector(".overlay");
 
 const photos = [
-  "https://images.unsplash.com/photo-1506744038136-46273834b3fb?w=500&auto=format&fit=crop",
-  "https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05?w=500&auto=format&fit=crop",
-  "https://images.unsplash.com/photo-1447752875215-b2761acb3c5d?w=500&auto=format&fit=crop",
-  "https://images.unsplash.com/photo-1780505551698-20e10667383c?q=80&w=870&auto=format&fit=crop",
-  "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=500&auto=format&fit=crop"
+  "https://images.unsplash.com/photo-1514565131-fce0801e5785?w=500&auto=format&fit=crop", // city skyline
+  "https://images.unsplash.com/photo-1519501025264-65ba15a82390?w=500&auto=format&fit=crop", // night city
+  "https://images.unsplash.com/photo-1477959858617-67f85cf4f1df?w=500&auto=format&fit=crop", // downtown
+  "https://images.unsplash.com/photo-1449824913935-59a10b8d2000?w=500&auto=format&fit=crop", // street
+  "https://images.unsplash.com/photo-1446776811953-b23d57bd21aa?w=500&auto=format&fit=crop"  // aerial city
 ];
 
 photos.forEach((photo) => {
