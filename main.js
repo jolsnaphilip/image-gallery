@@ -4,11 +4,11 @@ const toggleBtn = document.querySelector(".dark");
 const shade = document.querySelector(".overlay");
 
 const photos = [
-  "https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?w=500&auto=format&fit=crop",
-  "https://images.unsplash.com/photo-1503376780353-7e6692767b70?w=500&auto=format&fit=crop",
-  "https://images.unsplash.com/photo-1489824904134-891ab64532f1?w=500&auto=format&fit=crop",
-  "https://images.unsplash.com/photo-1544636331-e26879cd4d9b?w=500&auto=format&fit=crop",
-  "https://images.unsplash.com/photo-1553440569-bcc63803a83d?w=500&auto=format&fit=crop"
+  "https://upload.wikimedia.org/wikipedia/commons/0/0f/Munnar_hill_station.jpg",
+  "https://upload.wikimedia.org/wikipedia/commons/4/4d/Alappuzha_Backwaters.jpg",
+  "https://upload.wikimedia.org/wikipedia/commons/8/83/Thekkady_Kerala.jpg",
+  "https://upload.wikimedia.org/wikipedia/commons/5/57/Vagamon_Meadows.jpg",
+  "https://upload.wikimedia.org/wikipedia/commons/2/2d/Athirappilly_Falls.jpg"
 ];
 
 photos.forEach((photo) => {
